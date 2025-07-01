@@ -67,7 +67,7 @@ public class App extends Application {
    private Stage primaryStage;
    private VBox rootLayout;
    private boolean isSignedUp = false;
-   String uri = "mongodb+srv://fostericetwo:TwcEP3um0ycpfhTe@attendanceappcluster.xvh3e.mongodb.net/?retryWrites=true&w=majority&appName=AttendanceAppCluster";
+   String uri = "mongodb+srv://fostericetwo:<db_password>@attendanceappcluster.xvh3e.mongodb.net/?retryWrites=true&w=majority&appName=AttendanceAppCluster";
    MongoClient mongoClient;
    MongoDatabase database;
    MongoCollection<Document> usersCollection;
